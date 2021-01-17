@@ -9,9 +9,9 @@ export const headData = {
 
 // HERO DATA
 export const heroData = {
-  title: '',
-  name: '',
-  subtitle: '',
+  title: 'Hello my name is',
+  name: 'John Wang',
+  subtitle: `I'm an Intermediate Developer.`,
   cta: '',
 };
 
@@ -59,22 +59,12 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'johnw7@uci.edu',
 };
 
 // FOOTER DATA
 export const footerData = {
   networks: [
-    {
-      id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
     {
       id: nanoid(),
       name: 'linkedin',
@@ -83,7 +73,7 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/jwang0110',
     },
   ],
 };
