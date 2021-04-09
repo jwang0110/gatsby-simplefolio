@@ -2,16 +2,16 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  title: 'John Wang | Full Stack Developer', // e.g: 'Name | Developer'
+  lang: 'en', // e.g: en, es, fr, jp
+  description: 'My Portfoliio', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
   title: 'Hello my name is',
   name: 'John Wang',
-  subtitle: `I'm an Intermediate Developer.`,
+  subtitle: `I'm a Full Stack Developer.`,
   cta: 'Learn More',
 };
 
@@ -20,7 +20,7 @@ export const aboutData = {
   img: 'profile.jpg',
   paragraphOne: `Hi. I'm John, a fullstack developer based in the Bay Area. I graduated from the University of California, Irvine in Summer of 2020 and have been working hard on sharpening my coding skills. When it comes to coding, I enjoy manipulating data from APIs and building clean, responsive web applications.`,
   paragraphTwo: `In my free time, I like working on myself and pushing myself to being the best that I can be. This includes working out, learning Japanese, and working on personal projects. I enjoy learning things from the ground up and looking back on how much I have improved from when I started.`,
-  resume: '', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/17WoQz53zvXK0qJCvJXpIrCKEyI-Tc0K6/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -67,7 +67,7 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: ' www.linkedin.com/in/john-wang-63474117b',
     },
     {
       id: nanoid(),
