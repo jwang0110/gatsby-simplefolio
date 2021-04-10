@@ -18,7 +18,7 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: `Hi. I'm John, a fullstack developer based in the Bay Area. I graduated from the University of California, Irvine in Summer of 2020 and have been working hard on sharpening my coding skills. When it comes to coding, I enjoy manipulating data from APIs and building clean, responsive web applications.`,
+  paragraphOne: `Hi. I'm John, a full stack developer based in the Bay Area. I graduated from the University of California, Irvine in Summer of 2020 and have been working hard on sharpening my coding skills. When it comes to coding, I enjoy manipulating data from APIs and building clean, responsive web applications.`,
   paragraphTwo: `In my free time, I like working on myself and pushing myself to being the best that I can be. This includes working out, learning Japanese, and working on personal projects. I enjoy learning things from the ground up and looking back on how much I have improved from when I started.`,
   resume: 'https://drive.google.com/file/d/17WoQz53zvXK0qJCvJXpIrCKEyI-Tc0K6/view?usp=sharing', // if no resume, the button will not show up
 };
