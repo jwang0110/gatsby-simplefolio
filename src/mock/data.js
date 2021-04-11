@@ -67,7 +67,7 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'linkedin',
-      url: ' www.linkedin.com/in/john-wang-63474117b',
+      url: 'https://www.linkedin.com/in/john-wang-63474117b/',
     },
     {
       id: nanoid(),
