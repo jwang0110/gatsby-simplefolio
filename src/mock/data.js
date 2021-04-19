@@ -20,11 +20,20 @@ export const aboutData = {
   img: 'profile.jpg',
   paragraphOne: `Hi. I'm John, a full stack developer based in the Bay Area. I graduated from the University of California, Irvine in Summer of 2020 and have been working hard on sharpening my coding skills. When it comes to coding, I enjoy manipulating data from APIs and building clean, responsive web applications.`,
   paragraphTwo: `In my free time, I like working on myself and pushing myself to being the best that I can be. This includes working out, learning Japanese, and working on personal projects. I enjoy learning things from the ground up and watching myself improve along the way.`,
-  resume: 'https://drive.google.com/file/d/17WoQz53zvXK0qJCvJXpIrCKEyI-Tc0K6/view?usp=sharing', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/12a9-TBzr8MOy4lvIM8aLvfbi8igCZgGj/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
+  {
+    id: nanoid(),
+    img: 'fabflix.png',
+    title: 'Fabflix',
+    info: `Fabflix is a fullstack web application that displays a list of movies from The Movie Database API. It offers features like searching and browsing to help users find movies they would be interested in. Users have the option of creating an account and bookmarking movies for future references.`,
+    info2: '',
+    url: 'https://fabflix.herokuapp.com',
+    repo: 'https://github.com/jwang0110/fabflix', // if no repo, the button will not show up
+  },
   {
     id: nanoid(),
     img: 'tangoland.png',
@@ -43,22 +52,13 @@ export const projectsData = [
     url: '',
     repo: 'https://github.com/jwang0110/ztm-gatsby-netlify-cms-blog-starter', // if no repo, the button will not show up
   },
-  {
-    id: nanoid(),
-    img: 'fabflix.png',
-    title: 'Fabflix',
-    info: `Fabflix is a fullstack web application that displays a list of movies from The Movie Database API. It offers features like searching and browsing to help users find movies they would be interested in. Users have the option of creating an account and bookmarking movies for future references.`,
-    info2: '',
-    url: 'https://fabflix.herokuapp.com',
-    repo: 'https://github.com/jwang0110/fabflix', // if no repo, the button will not show up
-  },
 ];
 
 // CONTACT DATA
 export const contactData = {
   cta: '',
   btn: '',
-  email: 'johnw7@uci.edu',
+  email: 'jwang4059@gmail.com',
 };
 
 // FOOTER DATA
