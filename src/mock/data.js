@@ -32,7 +32,7 @@ export const projectsData = [
     info: `Fabflix is a fullstack web application that displays a list of movies from The Movie Database API. It offers features like searching and browsing to help users find movies they would be interested in. Users have the option of creating an account and bookmarking movies for future references.`,
     info2: '',
     url: 'https://fabflix.herokuapp.com',
-    repo: 'https://github.com/jwang0110/fabflix', // if no repo, the button will not show up
+    repo: 'https://github.com/jwang4059/fabflix', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -41,7 +41,7 @@ export const projectsData = [
     info: `Tango Land is a simple flashcard web application that test users on common Japanese expressions. This app lets users select which words they would like to study and how they want to study them. Users have the option to answer with the expression, kana, or romaji. It also shows additional information like pronunciation and definition as well as the score so that users can keep track of their progress.`,
     info2: '',
     url: 'https://tangoland.herokuapp.com',
-    repo: 'https://github.com/jwang0110/tangoland', // if no repo, the button will not show up
+    repo: 'https://github.com/jwang4059/tangoland', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -50,7 +50,7 @@ export const projectsData = [
     info: `ZTM Gatsby + Netlify CMS Starter is a new up to date starter kit for a Gatsby.js blog. It connects to Netlify CMS to make it easier for users to create blog posts. On top of that, it has been built with Tailwind.css, a modern CSS framework that makes it easy for users to theme and customize their project. With the help of this starter kit, anyone can build their own personalized blog.`,
     info2: '',
     url: '',
-    repo: 'https://github.com/jwang0110/ztm-gatsby-netlify-cms-blog-starter', // if no repo, the button will not show up
+    repo: 'https://github.com/jwang4059/ztm-gatsby-netlify-cms-blog-starter', // if no repo, the button will not show up
   },
 ];
 
@@ -67,12 +67,12 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'linkedin',
-      url: 'https://www.linkedin.com/in/john-wang-63474117b/',
+      url: 'https://www.linkedin.com/in/jwang4059/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: 'https://github.com/jwang0110',
+      url: 'https://github.com/jwang4059',
     },
   ],
 };
